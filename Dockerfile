@@ -44,4 +44,6 @@ RUN apt-get update && apt-get -y upgrade && apt-get autoremove \
     && curl https://bootstrap.pypa.io/get-pip.py | sudo -H python3.6 \
     && pip install numpy
 
+RUN echo "source /opt/intel/computer_vision_sdk/bin/setupvars.sh" >> ~/.bashrc
+
 CMD ["/bin/bash"]
