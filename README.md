@@ -8,7 +8,7 @@ Assuming you already downloaded OpenVINO and unpacked the .tgz file
 Tested with OpenVINO R4
 
 ### Build docker
-$ docekr build -t openvino . 
+$ docker build -t openvino . 
 
 ### Run docker
 $ docker run -ti openvino bash 
